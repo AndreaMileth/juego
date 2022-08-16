@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <div class="titulo">
+
+    <h1>¡ATRAPA LOS POKEMON!</h1>
+</div>
+    <style>
+
+        body {counter-reset:game;
+
+        }
+
+        input:checked {
+
+            counter-increment: game;
+
+        }
+
+        .total-count::after {
+
+            content: counter(game);
+
+        }
+
+    </style>
+
+    <link href="prokedex.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <ul>
+
+        <li><input type="checkbox"><div class="shield"></div></li>
+
+        <li><input type="checkbox"><div class="shield"></div></li>
+
+        <li><input type="checkbox"><div class="shield"></div></li>
+
+        <li><input type="checkbox"><div class="shield"></div></li>
+
+        <li><input type="checkbox"><div class="shield"></div></li>
+
+        <li><input type="checkbox"><div class="shield"></div></li>
+
+        <li><input type="checkbox"><div class="shield"></div></li>
+
+        <li><input type="checkbox"><div class="shield"></div></li>
+
+        <li><input type="checkbox"><div class="shield"></div></li>
+
+        <li><input type="checkbox"><div class="shield"></div></li>
+
+    </ul>
+
+    <h3 class="total-count">Score:</h3>
+
+</head>
+
+<body>
+
+    <div class="phone">
+
+        <div class="layer-1">
+            <img src="videojuego/pokemon44.png" width="100">
+
+        </div>
+
+
+
+        <div class="layer-2">
+<img src="videojuego/pokemon102.png" width="100">
+            <input type="checkbox">
+
+        </div>
+
+
+        <div class="layer-3">
+<img src="videojuego/pokemon106.png" width="100">
+            <div class="zigzag"></div>
+
+        </div>
+
+
+
+        <div class="layer-4">
+<img src="videojuego/pokemon100.png" width="100">
+            <input type="checkbox">
+
+        </div>
+
+
+
+        <div class="layer-5">
+<img src="videojuego/pokemon114.png" width="100">
+            <div class="zigzag"></div>  
+
+        </div>
+
+
+
+        <div class="layer-6">
+<img src="videojuego/pokemon57.png" width="100">
+            <input type="checkbox">
+
+        </div>
+
+
+
+        <div class="layer-7">
+<img src="videojuego/pokemon71.png" width="100">
+            <div class="zigzag"></div>
+
+        </div>
+<img src="videojuego/pokemon99.png" width="100">
+       <div class="layer-8"></div>
+
+           <h1>Pokedex</h1>
+
+    </div>
+    </div>
+
+</body>
+<br>
+</html>
+
+ 
+        </div>
+
+
+    </div>
+    
+</style>
+<head>
+</body>
+<div class="phone">
+<img src="videojuego/pokemon78.png" width="100">
+    <div class="layer-1">
+
+        <input type="checkbox">
+
+    </div>
+
+
+
+    <div class="layer-2">
+<img src="videojuego/pokemon88.png" width="100">
+        <input type="checkbox">
+
+    </div>
+
+
+
+    <div class="layer-3">
+<img src="videojuego/pokemon69.png" width="100">
+        <div class="zigzag"></div>
+
+    </div>
+
+
+
+    <div class="layer-4">
+<img src="videojuego/pokemon36.png" width="100">
+        <input type="checkbox">
+
+    </div>
+
+
+
+    <div class="layer-5">
+<img src="videojuego/pokemon1.png" width="100">
+        <div class="zigzag"></div>  
+
+    </div>
+
+
+
+    <div class="layer-6">
+<img src="videojuego/pokemon23.png" width="100">
+        <input type="checkbox">
+    </div>
+
+
+
+    <div class="layer-7">
+<img src="videojuego/pokemon66.png" width="100">
+        <div class="zigzag"></div>
+
+    </div>
+<img src="videojuego/pokemon24" width="100">
+    <div class="layer-8">
+
+        <h1>Pokedex</h1>
+
+    </div>
+
+</div>
+</head>
+</body>
+</html>
